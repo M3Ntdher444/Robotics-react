@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.container {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+}
+.d-flex {
+  display: flex;
+}
+
+.align-items-conter {
+  align-items: center;
+}
+
+.justify-content-conter {
+  justify-content: center;
+}
+
+.justify-content-evenly {
+  justify-content: space-evenly;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-around {
+  justify-content: space-around;
+}
+.text-transform {
+  text-transform: capitalize;
+}
+.text-white {
+  color: white;
+}
+.text-alian {
+  text-align: center;
+}
+.h-100 {
+  height: 100%;
+}
+.w-100 {
+  width: 100;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+/*start navber*/
+nav {
+  height: 70px;
+  background-color: #8a90ff;
+}
+
+.nav-content ul li {
+  list-style: none;
+}
+.nav-content ul li a {
+  text-decoration: none;
+}
+.nav-content ul li a:hover {
+  color: blue;
+}
+/*end navber*/
+/*start header*/
+
+header {
+  height: 500px;
+  background-image: url(../src/Img/banner-bg.jpg);
+  background-size: cover;
+}
+
+.header-content button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: blue;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.header-content h1 {
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/*end header*/
+/*start product*/
+.products {
+  width: 100%;
+  height: 500px;
+  background-color: azure;
+  background-size: cover;
+}
+
+.products,
+.product {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.product h5,
+.product p,
+.product button {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.product-contnet button {
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+.product-contnet button:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+/*end product*/
+/*start sercices*/
+.services {
+  height: 100%;
+  background-color: azure;
+}
+.service-img img {
+  width: 75%;
+}
+
+.service-contnet button {
+  padding: 10px 20px;
+  color: black;
+  border-radius: 5px;
+}
+.service-contnet button:hover {
+  cursor: pointer;
+  color: blue;
+}
+.service-contnet h1,
+.service-contnet h5,
+.service-contnet p,
+.service-contnet button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/*end sercices*/
